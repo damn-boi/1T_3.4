@@ -1,20 +1,20 @@
 # 1T_3.3
 
-currency_load_variables:
-{
-  "table_name": "rates",
-  "rate_base": "BTC",
-  "rate_target": "RUB",
-  "connection_name": "my_db_conn",
-  "url_base": "https://api.exchangerate.host/"
-}
+<p>currency_load_variables:</p>
+<p>{</p>
+<p>"table_name": "rates",</p>
+  <p>"rate_base": "BTC",</p>
+  <p>"rate_target": "RUB",</p>
+  <p>"connection_name": "my_db_conn",</p>
+  <p>"url_base": "https://api.exchangerate.host/"</p>
+<p>}<p>
 
-Connections:
-(
-	Conn id: my_db_conn
-	Conn type: postgres
-	Host: host.docker.internal
-	Schema: test
-	Login/pass: postgres/password
-	Port: 5430
-)
+<p>Connections:</p>
+<p>(</p>
+	<p>Conn id: my_db_conn</p>
+	<p>Conn type: postgres</p>
+	<p>Host: host.docker.internal</p>
+	<p>Schema: test</p>
+	<p>Login/pass: postgres/password</p>
+	<p>Port: 5430</p>
+<p>)</p>
